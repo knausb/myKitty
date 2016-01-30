@@ -5,7 +5,7 @@ warnings_are_errors: true
 sudo: required
 
 
-install:
+r_github_packages:
   - ./travis-tool.sh install_github knausb/vcfR
 
 
