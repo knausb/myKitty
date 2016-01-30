@@ -14,7 +14,10 @@ Don't forget to clean and build the vignettes.
     devtools::build_vignettes(pkg=".")
     
 
-And browse.
+Remember, clean_vignettes, build_vignettes and build the package.
+
+
+Check the vignettes.
 
     browseVignettes(package="myKitty")
 
