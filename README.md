@@ -13,11 +13,16 @@ Don't forget to clean and build the vignettes.
     devtools::clean_vignettes(pkg=".")
     devtools::build_vignettes(pkg=".")
     
-    
+
+And browse.
+
+    browseVignettes(package="myKitty")
+
+
 In order to install from GitHub.
 
     devtools::install_github(repo="knausb/myKitten", build_vignettes=TRUE)
     devtools::install_github(repo="knausb/myKitten")
 
 
-It's called myKitten because it was built with the [pkgKitten](http://dirk.eddelbuettel.com/code/pkgkitten.html)
+It's called myKitten because it was built with the [pkgKitten](http://dirk.eddelbuettel.com/code/pkgkitten.html).
