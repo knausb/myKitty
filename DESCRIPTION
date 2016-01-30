@@ -11,7 +11,10 @@ Description: More details about what the package does. See
 License: GPL (>= 2)
 Suggests: knitr,
     ape,
+    ggplot2,
     poppr,
+    reshape2,
     rmarkdown,
+    scales,
     vcfR
 VignetteBuilder: knitr
