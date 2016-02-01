@@ -6,6 +6,6 @@ sudo: required
 
 
 r_github_packages:
-  - ./travis-tool.sh install_github knausb/vcfR
+  - knausb/vcfR
 
 
