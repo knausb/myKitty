@@ -6,6 +6,7 @@ sudo: required
 
 r_packages:
   - pinfsc50
+  - viridisLite
 
 r_github_packages:
   - knausb/vcfR
