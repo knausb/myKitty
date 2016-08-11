@@ -11,7 +11,8 @@ License: GPL (>= 2)
 Imports:
   ape,
   methods,
-    Rcpp
+  Rcpp,
+  vcfR
 LazyData: TRUE
 RoxygenNote: 5.0.1
 LinkingTo: Rcpp
