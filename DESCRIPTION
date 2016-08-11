@@ -10,6 +10,9 @@ Description: More about what it does (maybe more than one line). Even more about
 License: GPL (>= 2)
 Imports:
   ape,
-  methods
+  methods,
+    Rcpp
 LazyData: TRUE
 RoxygenNote: 5.0.1
+LinkingTo: Rcpp
+Suggests: testthat

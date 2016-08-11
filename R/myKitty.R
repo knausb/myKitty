@@ -8,4 +8,9 @@
 #'
 #' @docType package
 #' @name myKitty
+#'
+#'
+#' @useDynLib myKitty
+#' @importFrom Rcpp sourceCpp
 NULL
+
